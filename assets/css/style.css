@@ -122,12 +122,8 @@ body {
     font-family: 'Merriweather Sans';
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
-
-/* .event-heading {
-    text-align: center;
-} */
 
     /* Gallery section */
 
@@ -136,6 +132,7 @@ body {
     line-height: 0;
     column-count: 4;
     column-gap: 0px;
+    align-items: flex-end;
 }
 
 #photo img {

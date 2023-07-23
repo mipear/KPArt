@@ -17,54 +17,54 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](image of nav))
+![Nav Bar](docs/readmeimages/Nav.png)
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](docs/readmeimages/heroimage.png)
 
 - __About Me section__
 
   - The About Me section allows the user to know a little about the artist. By including the About Me on the home page, the artist is able to introduce himself (in his own words) and feature an image of himself to gain support before potential customers and supporters delve into his art on the subsequent page.
   -The About Me allows context for the art itself...
 
-![About Me](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About Me](docs/readmeimages/aboutme.png)
 
 - __Upcoming events section__
 
   - This section will allow the user to know when and where the artist will feature his work. It is beneficial for the artist to promote these events in order to sell his art.
   - This section will be updated as more events take place to keep the user up to date.
 
-![Upcoming Events](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Upcoming Events](docs/readmeimages/upcomingevents.png)
 
 - __The Footer__
 
   - The footer section includes links to the relevant social media sites for Kevin Pearse. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media and continue raising the artists' profile.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](docs/readmeimages/footer.png)
 
 - __Gallery__
 
   - The gallery will provide the user with images of the artists' paintings to showcase the artists' work and gain support.
   - This section is valuable to the user as they will be able to browse the paintings clearly before potentially visiting and event of the artist or contacting the artist via the Contact page. This section is highly valuable to the artist as this showcases his work to potential customers and supporters.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](docs/readmeimages/gallery.png)
 
- __The About Me Image__
+ __The Contact Image__
 
 - This section includes an image of a painting from the artist. Due to the website being to promote and showcase the artists' work, an image of the art is valuable on each page to entice the user to becoming buyers and/or supporters.
 
-![Contact Image](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contact Image](docs/readmeimages/contactimg.png)
 
 - __The Contact Section__
 
   - This page will allow the user to contact the artist directly. The user will be instructed to write their name, email, and send a message of their choosing to the artist. This section is purposefully not too specific in its instructions as the messages from potential users could be in regards to ordering potentially through contacting the artist himself or in order to gain more information about the upcoming events.
 
-![Contact](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contact](docs/readmeimages/contact.png)
 
 ### Features Left to Implement
 
@@ -114,6 +114,7 @@ You can break the credits section up into Content and Media, depending on what y
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- In order to create a pallet of colours, I used [Coolors.co](https://coolors.co/image-picker) and created my pallet via the artist's hero image painting.
 
 ### Media
 

@@ -90,9 +90,10 @@ body {
     }
 }
 
-#cover-text, cover-text h2 {
+#cover-text, cover-text h2 { 
     color: #F8F6F0ff;
 }
+
 
 .artist-img {
     width: 150px;
@@ -135,6 +136,14 @@ body {
     color: #6C8989ff;
 }
 
+.event-heading {
+    color: #6C8989ff;
+}
+
+.col-12 {
+    color: #6C8989ff;
+}
+
 .event-maps {
     width: 500px;
     height: 400px;
@@ -160,6 +169,7 @@ body {
 .aberaeron-container {
     width: 100%;
     height: 600px
+    margin-bottom: 10px;
 }
 
 .bg-color-contact {
@@ -178,7 +188,6 @@ body {
 }
 
 .center-form {
-    padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
@@ -242,12 +251,26 @@ footer {
     #hero-image {
         height: 450px;
     }
+
+    #hero-outer {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    }
 }
 
 @media screen and (max-width: 480px) {
     #hero-image {
         height: 300px;
         width: 100%
+    }
+
+    #hero-outer {
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
     }
 }
 
@@ -281,5 +304,21 @@ footer {
         width: 300px;
         height: 200px;
         border: 0;
+    }
+}
+
+/* Media query for Contact Image */
+
+@media screen and (max-width: 768px) {
+    .aberaeron-container {
+        width: 100%;
+        height: 450px
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aberaeron-container {
+        width: 100%;
+        height: 300px
     }
 }

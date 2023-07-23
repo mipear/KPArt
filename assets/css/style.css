@@ -11,7 +11,7 @@ header {
 /* Body */
 body {
     font-family: 'Merriweather Sans', sans-serif;
-    color: #777777;
+    color: #0590AEff;
 }
 
 #logo {
@@ -26,9 +26,9 @@ body {
     letter-spacing: 4px;
 }
 
-#logo,
-#menu {
+#logo, #menu {
     line-height: 75px;
+    color: #0590AEff;
 }
 
 #menu li {
@@ -42,17 +42,22 @@ body {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #2A4D76ff;
+    color: #2A4D76ff;
+}
+
+#logo a:hover {
+    color: #2A4D76ff;
 }
 
 .active {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #2A4D76ff;
 }
 
 /*colours*/
 
 .bg-color-contact {
-    background-color: #fff;
+    background-color: #F8F6F0ff;
 }
 
 /* Home Page section */
@@ -86,7 +91,7 @@ body {
 }
 
 #cover-text, cover-text h2 {
-    color: #ffffff;
+    color: #F8F6F0ff;
 }
 
 .artist-img {
@@ -123,6 +128,11 @@ body {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 10px;
+    color: #6C8989ff;
+}
+
+.col h5 {
+    color: #6C8989ff;
 }
 
     /* Gallery section */
@@ -142,7 +152,7 @@ body {
     /* Contact section */
 
 .bg-color-contact {
-    background-color: #fff;
+    background-color: #F8F6F0ff;
 }
 
 .two-thirds-width-column {
@@ -166,8 +176,8 @@ body {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #2fd1f2;
+    color: #F8F6F0ff;
+    background-color: #5CA8B3ff;
     }
 
     /* media queries */
@@ -209,5 +219,5 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color: #5CA8B3ff;
 }

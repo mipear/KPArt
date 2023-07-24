@@ -1,14 +1,10 @@
-# Kevin Pearse
+# Kevin Pearse Art
 
-Kevin Pearse is a site that hopes to showcase artist Kevin Pearse's work to... This site will be targeted towards fans of art... Kevin Pearse will be useful to potential customers of Kevin Pearse as they will be able to contact the seller and know where to find his upcoming events. It will also be useful to the artist Kevin Pearse in order to showcase his work.
+Kevin Pearse Art is a site that hopes to showcase artist Kevin Pearse's work to engage and maximise his audience and customers. This site will be targeted towards fans of art and therefore will prioritise images of the artist's work in a well presented manner. The purpose of the site will be to showcase the art, to give information about the artist and upcoming events, and to allow the user to contact the artist. Kevin Pearse Art will be useful to potential customers of Kevin Pearse as they will be able to contact the seller and know where to find his upcoming events. It will also be useful to the artist Kevin Pearse in order to showcase his work. Due to the site showcasing art, the colour palette is particularly important. For this reason, the colours used on the website have been taken from a painting by the artist himself that will be the hero image. This feature will be beneficial to the artist and the user as it creates a cohesive website, showcasing Kevin Pearse's work through and through.
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](responsive mockup here)
 
 ## Features
-
-- As the intention of the website is to familiarise potential future customers with Kevin Pearse's art, the About Me section introduces the user to the artist prior to them seeing the scope of the art within the Gallery.
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
@@ -19,23 +15,24 @@ In this section, you should go over the different parts of your project, and des
 
 ![Nav Bar](docs/readmeimages/Nav.png)
 
-- __The landing page image__
+- __The hero image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The hero image includes a photograph of a painting by artist Kevin Pearse. It does not include text overlay as the artist felt this would take the user away from admiring the artist's work, which is the goal of the image. The painting itself has the place name "Aberaeron" visible on a boat, giving context to the user of the places and scenes the artist features in his work.
+  - The colour palette for the website has been used using this hero image, creating a cohesive experience for the user.
 
-![Landing Page](docs/readmeimages/heroimage.png)
+![Hero Image](docs/readmeimages/heroimage.png)
 
 - __About Me section__
 
-  - The About Me section allows the user to know a little about the artist. By including the About Me on the home page, the artist is able to introduce himself (in his own words) and feature an image of himself to gain support before potential customers and supporters delve into his art on the subsequent page.
-  -The About Me allows context for the art itself...
+  - The About Me section allows the user to know a little about the artist. The About Me section is written by the artist in order to create a more personal feel to the website. Alongside the artist's words is an image of the artist. 
+  - By including the About Me section on the home page, the artist is able to introduce himself in a more personal way and give context to his paintings before users and therefore potential customers and supporters delve into his art on the subsequent page of the Gallery.
 
 ![About Me](docs/readmeimages/aboutme.png)
 
 - __Upcoming events section__
 
   - This section will allow the user to know when and where the artist will feature his work. It is beneficial for the artist to promote these events in order to sell his art.
+  - Underneath the address' for the events are maps of said events. This allows the user to find the address' with ease and therefore is more likely to entice the user to the event.
   - This section will be updated as more events take place to keep the user up to date.
 
 ![Upcoming Events](docs/readmeimages/upcomingevents.png)
@@ -51,12 +48,15 @@ In this section, you should go over the different parts of your project, and des
 
   - The gallery will provide the user with images of the artists' paintings to showcase the artists' work and gain support.
   - This section is valuable to the user as they will be able to browse the paintings clearly before potentially visiting and event of the artist or contacting the artist via the Contact page. This section is highly valuable to the artist as this showcases his work to potential customers and supporters.
+  - On mobile screens, the gallery changes from being four columns to one column in order to ensure that the user can inspect and enjoy the images with ease. The purpose of the website is to showcase the artist's paintings, and therefore, it is of the upmost importance that the images are easy to see.
+  - Should and image not load, alternative text is included with each image to ensure the user knows the kind of paintings the artist creates.
 
 ![Gallery](docs/readmeimages/gallery.png)
 
  __The Contact Image__
 
 - This section includes an image of a painting from the artist. Due to the website being to promote and showcase the artists' work, an image of the art is valuable on each page to entice the user to becoming buyers and/or supporters.
+- The image featuring lots of blue ties in with the colour palette used on the rest of the website.
 
 ![Contact Image](docs/readmeimages/contactimg.png)
 
@@ -102,8 +102,9 @@ The live link can be found here - <https://mipear.github.io/KP---Project-1/>
 
 ## Credits
 
-This project was done following along to the Code Institute tutorials, nameley, the Love Running Project and the Resume mini project.
-Bootstrap was incredibly useful to...
+- This project was done following along to the Code Institute tutorials, nameley, the Love Running Project and the Resume mini project.
+- Bootstrap was incredibly useful in creating the Upcoming Events section in a responsive way.
+- In order to
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
@@ -118,7 +119,8 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The images used across all pages are owned by Kevin Pearse, the artist this website showcases.
+- The images used across all pages of the website are owned by Kevin Pearse, the artist this website showcases.
+- The wireframes within the README.md were created using [Balsamiq] (<https://balsamiq.com/wireframes/desktop/#>)
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 

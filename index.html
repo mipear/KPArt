@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<!-- This is the head -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
@@ -13,11 +13,13 @@
 </head>
 
 <body>
+
+<!-- This is the header including logo and menu -->
     <header>
         <a href="index.html">
             <h2 id="logo">Kevin Pearse Art</h2>
         </a>
-        <nav>
+        <nav class="">
             <ul id="menu">
                 <li>
                     <a href="contact.html">Contact</a>
@@ -28,20 +30,27 @@
                 <li>
                     <a class="active" href="index.html">Home</a>
                 </li>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
 
+<!-- This is the hero image -->
     <section id="hero-outer">
         <div id="hero-image"></div>
     </section>
 
     <br>
 
+<!-- This is my about-me section -->
     <section>
         <div class="container">
             <div class="about-me">
-                <img src="assets/images/KevinPearseAbout.jpeg" alt="Artist Image" class="artist-img">
+                <img src="assets/images/kevinpearseabout.jpeg" alt="Artist Image" class="artist-img">
                 <h2>About Me</h2>
                 <h4>I am inspired to paint in response to the wondrous West Wales landscape and coastline. I often paint
                     and draw plein-air, producing watercolour notations within the landscape itself. I work in
@@ -52,6 +61,7 @@
     </section>
     <br>
     <hr>
+<!-- These are the artist's upcoming events -->
     <section class="container-fluid">
         <div class="row row-table">
             <div class="col-md-8 section-column">
@@ -102,6 +112,7 @@
             </div>
         </div>
     </section>
+<!-- This is the footer -->
     <footer>
         <ul class="social-networks">
             <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>

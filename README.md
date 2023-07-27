@@ -4,6 +4,11 @@ Kevin Pearse Art is a site that hopes to showcase artist Kevin Pearse's work to 
 
 ![Responsive Mockup](responsive mockup here)
 
+## User Stories
+
+
+[Wireframes](docs/readmewireframes)
+
 ## Features
 
 ### Existing Features

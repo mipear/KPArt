@@ -2,7 +2,7 @@
 
 Kevin Pearse Art is a site that hopes to showcase artist Kevin Pearse's work to engage and maximise his audience and customers. This site will be targeted towards fans of art and therefore will prioritise images of the artist's work in a well presented manner. The purpose of the site will be to showcase the art, to give information about the artist and upcoming events, and to allow the user to contact the artist. Kevin Pearse Art will be useful to potential customers of Kevin Pearse as they will be able to contact the seller and know where to find his upcoming events. It will also be useful to the artist Kevin Pearse in order to showcase his work. Due to the site showcasing art, the colour palette is particularly important. For this reason, the colours used on the website have been taken from a painting by the artist himself that will be the hero image. This feature will be beneficial to the artist and the user as it creates a cohesive website, showcasing Kevin Pearse's work through and through.
 
-![Responsive Mockup](responsive mockup here)
+![Responsive Mockup](docs/readmeimages/mockup.png)
 
 ## User Stories
 

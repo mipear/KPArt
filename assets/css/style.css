@@ -313,7 +313,7 @@ footer {
 @media screen and (max-width: 480px) {
     #hero-image {
         height: 300px;
-        width: 100%
+        width: 100%;
     }
 
     #hero-outer {
@@ -355,6 +355,14 @@ footer {
         border: 5px;
         margin-bottom: 20px;
 
+    }
+
+    .container-fluid {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 

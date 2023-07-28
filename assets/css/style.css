@@ -41,17 +41,12 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #2A4D76ff;
-    color: #2A4D76ff;
-}
-
-#logo a:hover {
+    border: 1px solid #2A4D76ff;
     color: #2A4D76ff;
 }
 
 .active {
     border-bottom: 1px solid #2A4D76ff;
-    color: white;
 }
 
 /* Body */
@@ -155,8 +150,8 @@ cover-text h2 {
 }
 
 .event-maps {
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 375px;
     border: 0;
 }
 

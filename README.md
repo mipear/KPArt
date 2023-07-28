@@ -6,6 +6,43 @@ Kevin Pearse Art is a site that hopes to showcase artist Kevin Pearse's work to 
 
 ## User Stories
 
+## UX
+
+## Project Goals:
+The primary goal of Kevin Pearse Art is to promote and showcase the artwork of artist Kevin Pearse in a clear and aesthetically pleasing way. The website should include the artist’s work, information about the artist, a way for the user to contact the artist, and any future events the artist’s work is featured at. The target audience (and therefore the targeted external user) for this site will be people who like and engage with art and artists.
+
+### External user goals:
+External user goals are:
+1. To see the artwork and be able to navigate the website in a clear way.
+2. To learn a little about the artist.
+3. To have the ability to easily contact the artist should they have any queries.
+4. To know about any upcoming events that features the artist’s work.
+5. To have access to the artist’s relevant social media.
+
+### Kevin Pearse Art seeks to meet these needs by:
+1. Ensuring the site is easy and clear to navigate, prioritising visualising the art as showcasing the art is the ultimate purpose of the site.
+2. Having a section for the artist to say a little about himself (in his own words) and include an image of the artist alongside this. By including this section on the Home page, the user will gain context about the artist and his art before seeing the extent of the art on the subsequent Gallery page.
+3. Including a Contact page wherein the external user is able to easily send a message to the artist. After filling in their name and email, the user will be able to send a message and be taken to a Thank You page to ensure they know the artist has received said message.
+4. Informing the external user of any upcoming events featuring the artist’s work. This will include titles of said events and their locations.
+5. Implementing social media links within the Footer of the site, represented by their relevant icons. When clicked, the links will open into a separate tab, to ensure a good user experience. This will allow the user to access the artist’s social media efficiently without having to leave the page and without the page appearing to be cluttered.
+
+### Site owner/Artist’s goals:
+The site owner is the artist, Kevin Pearse. His goals are:
+1. To showcase and publicise his artwork in a clear way.
+2. To introduce himself to existing and future potential customers/supporters.
+3. To further network within the artists’ community.
+4. To be able to receive messages from potential customers/supporters.
+5. To publicise and inform of any future exhibitions.
+6. For any social media to be easily accessible, to further promote his work.
+
+Kevin Pearse Art seeks to meet these needs by:
+1. Prioritising the images of the artwork above all else, including at least one image of the artwork on each page. The pages themselves will be easy to navigate and will be clear in design to ensure the focus is primarily on the paintings.
+2. Including a section where the artist is able to introduce himself (in his own words) alongside an image of himself. Kevin Pearse will be able to contextualise the artwork and ensure a more personal feel to the site through doing this.
+3. Presenting a body of work that reflects the style of the artist. This allows other artists to see and understand a little about the art and artist, and further establish Kevin Pearse within the art world.
+4. Implementing a contact page wherein the artist is able to receive messages from potential customers/supporters. When filled in, the artist will be sent the user’s name, email, and message, and therefore can use the email to respond to the user, extending communication with his audience.
+5. Informing the external user of any upcoming events featuring the artist’s work. This will include titles of said events and their locations. By presenting this information in a clear and specific way, the user is more likely to attend an exhibition.
+6. Including social media links within the Footer of the site, represented by their relevant icons. When clicked, the links will open into a separate tab, to ensure a good user experience. By including these links within the Footer, potential supporters/customers are able to access the artist’s social media on every page of the website, increasing the likelihood of engagement from the external user.
+
 
 [Wireframes](docs/readmewireframes)
 

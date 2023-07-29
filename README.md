@@ -108,6 +108,12 @@ Kevin Pearse Art seeks to meet these needs by:
 
 ![Contact](docs/readmeimages/contact.png)
 
+## Colours
+
+Due to the purpose of Kevin Pearse Art being to showcase and promote the artist's work, colour has been particularly paid attention to. It was important to the artist that the presentation of colours was simplistic in order to emphasise the artwork itself. At the same time, it was significant for the colours to feel cohssive to the artist's work. To meed these needs, the website has used a palette of colours only from the hero image of the page. This was done using the website [Coolors.co]'s (https://coolors.co/image-picker) feature as seen below:
+![Hero Image Colour Palette](docs/readmeimages/colours.png)
+As so much of Kevin Pearse's artwork featuring nature and, more spcifically, the sea, two shades of blue has primarily been used within text. This use of colour encourages the user's association between the website and nature, nature and art, and is representative of the artist who says in the About Me that he paints plein air. 
+
 ### Features Left to Implement
 
 - A feature I would like to implement would be a shop page, represented by a trolley icon in the navigation menu, in order to purchase any paintings directly from the website itself rather than contacting the seller.
@@ -157,7 +163,7 @@ You can break the credits section up into Content and Media, depending on what y
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- In order to create a pallet of colours, I used [Coolors.co](https://coolors.co/image-picker) and created my pallet via the artist's hero image painting.
+- In order to create a palette of colours, I used [Coolors.co](https://coolors.co/image-picker) and created my palette via the artist's hero image painting.
 
 ### Media
 

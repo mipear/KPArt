@@ -56,13 +56,6 @@ body {
     background-color: #F8F6F0ff;
 }
 
-
-/*colours*/
-
-.bg-color-contact {
-    background-color: #F8F6F0ff;
-}
-
 /* Home Page section */
 
 #hero-image {
@@ -179,11 +172,6 @@ cover-text h2 {
 
 .bg-color-contact {
     background-color: #F8F6F0ff;
-}
-
-.two-thirds-width-column {
-    display: inline-block;
-    width: 66%;
 }
 
 .contact-heading {

@@ -288,6 +288,7 @@ footer {
 @media screen and (max-width: 768px) {
     #hero-image {
         height: 450px;
+        width: 100%;
     }
 
     #hero-outer {
@@ -302,6 +303,8 @@ footer {
     #hero-image {
         height: 300px;
         width: 100%;
+        background-size: cover;
+        background-position: center;
     }
 
     #hero-outer {

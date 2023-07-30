@@ -43,7 +43,8 @@ Kevin Pearse Art seeks to meet these needs by:
 5. Informing the external user of any upcoming events featuring the artist’s work. This will include titles of said events and their locations. By presenting this information in a clear and specific way, the user is more likely to attend an exhibition.
 6. Including social media links within the Footer of the site, represented by their relevant icons. When clicked, the links will open into a separate tab, to ensure a good user experience. By including these links within the Footer, potential supporters/customers are able to access the artist’s social media on every page of the website, increasing the likelihood of engagement from the external user.
 
-
+## Wireframes
+Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wireframes/desktop/#). Included in my wireframes are a desktop, tablet, and mobile version of each page. The Home Page and Contact Page will function in a similar way across devices, whilst the Gallery images will be one column instead of four in order to ensure the user can see the images/paintings clearly.
 [Wireframes](docs/readmewireframes)
 
 ## Features
@@ -54,6 +55,7 @@ Kevin Pearse Art seeks to meet these needs by:
 
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - On smaller screens (e.g. mobile) the Navigation Menu will be replaced by a hamburger menu that includes the three main pages included in the menu. This deviation from my wireframe was implemented as on smaller screens, the navigation bar appeared too bulky, when the emphasis should be on the contents and images of the site.
 
 ![Nav Bar](docs/readmeimages/Nav.png)
 
@@ -74,7 +76,7 @@ Kevin Pearse Art seeks to meet these needs by:
 - __Upcoming events section__
 
   - This section will allow the user to know when and where the artist will feature his work. It is beneficial for the artist to promote these events in order to sell his art.
-  - Underneath the address' for the events are maps of said events. This allows the user to find the address' with ease and therefore is more likely to entice the user to the event.
+  - Underneath the address' for the events are maps of said events. This allows the user to find the address' with ease and therefore is more likely to entice the user to the event. The maps have been included, despite not being in the wireframes, as it is an accessible way for the user to quickly know more about the event.
   - This section will be updated as more events take place to keep the user up to date.
 
 ![Upcoming Events](docs/readmeimages/upcomingevents.png)
@@ -120,20 +122,26 @@ As so much of Kevin Pearse's artwork featuring nature and, more spcifically, the
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I have tested the site across different pages manually on desktop, tablet, and mobile phone. In order to gage a more reliable ___ of responsiveness, I have continuously used Dev Tools in Chrome to test responsiveness across a wider range of devices, including….
+GO THROUGH EACH BIT
+BUGS - e.g. the hero image not reaching the side
+I used [Google Lighthouse]() to test the performance of the site. Initially each page performed between 70% and 100%, other than the Gallery, which performed at only 20%. In order to resolve this, I compressed each image, ensured they are all webp, and reduced their file sizes as I knew the very good quality of the images were likely to blame for the long load time of the Gallery. Following this change, ...
 
 ### Validator Testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+# HTML
+
+Initially, nine errors were found across the four pages - including thankyou.html - which primarily were errors within the head and the footer. The errors found were as follows:
+
+- "Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values". This was resolved by simply deleting a the unecessary trailing slash.
+- "Warning: Section lacks heading". This has been resolved by changing the section to a div, as no heading is necessary.
+- "Error: Unclosed element a". This error caused multiple other errors and was resolved by closing the a tag.
+- The final error present was to include a lang within the head.
+Once these errors were resolved, no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.htm)
+
+# CSS
+
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
@@ -146,11 +154,11 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://mipear.github.io/KP---Project-1/>
+The live link can be found here - <https://mipear.github.io/KPArt/index.html>
 
 ## Credits
 
-- This project was done following along to the Code Institute tutorials, nameley, the Love Running Project and the Resume mini project.
+- Part of this project was done following along to the Code Institute tutorials, nameley, the Love Running Project and the Resume Mini Project.
 - Bootstrap was incredibly useful in creating the Upcoming Events section in a responsive way.
 - In order to
 
@@ -170,21 +178,3 @@ You can break the credits section up into Content and Media, depending on what y
 - The images used across all pages of the website are owned by Kevin Pearse, the artist this website showcases.
 - The wireframes within the README.md were created using [Balsamiq] (<https://balsamiq.com/wireframes/desktop/#>)
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message
-  - Make sure to keep the messages in the imperative mood
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 
+html {
+    overflow: auto;
+}
+
 /* Header */
 
 header {
@@ -54,6 +58,7 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     color: #0590AEff;
     background-color: #F8F6F0ff;
+    overflow: auto;
 }
 
 /* Home Page section */
@@ -172,6 +177,8 @@ cover-text h2 {
 
 .bg-color-contact {
     background-color: #F8F6F0ff;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .contact-heading {

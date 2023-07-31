@@ -8,7 +8,7 @@ Kevin Pearse Art is a site that hopes to showcase artist Kevin Pearse's work to 
 
 ## Project Goals:
 
-The primary goal of Kevin Pearse Art is to promote and showcase the artwork of artist Kevin Pearse in a clear and aesthetically pleasing way. The website should include the artist’s work, information about the artist, a way for the user to contact the artist, and any future events the artist’s work is featured at. The target audience (and therefore the targeted external user) for this site will be people who like and engage with art and artists.
+The primary goal of Kevin Pearse Art is to promote and showcase the artwork of artist Kevin Pearse in a clear and aesthetically pleasing way. The website should include the artist’s work, information about the artist, a way for the user to contact the artist, and any future events the artist’s work is featured at. The target audience, and therefore the targeted external user, for this site will be people who like and engage with art and artists.
 
 ### External user goals:
 
@@ -39,7 +39,7 @@ The site owner is the artist, Kevin Pearse. His goals are:
 5. To publicise and inform of any future exhibitions.
 6. For any social media to be easily accessible, to further promote his work.
 
-Kevin Pearse Art seeks to meet these needs by:
+### Kevin Pearse Art seeks to meet these needs by:
 
 1. Prioritising the images of the artwork above all else, including at least one image of the artwork on each page. The pages themselves will be easy to navigate and will be clear in design to ensure the focus is primarily on the paintings.
 2. Including a section where the artist is able to introduce himself (in his own words) alongside an image of himself. Kevin Pearse will be able to contextualise the artwork and ensure a more personal feel to the site through doing this.
@@ -50,7 +50,7 @@ Kevin Pearse Art seeks to meet these needs by:
 
 ## Wireframes
 
-Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wireframes/desktop/#). Included in my wireframes are a desktop, tablet, and mobile version of each page. The Home Page and Contact Page will function in a similar way across devices, whilst the Gallery images will be one column instead of four in order to ensure the user can see the images/paintings clearly.
+Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wireframes/desktop/#). Included in my wireframes are a desktop, tablet, and mobile version of each page. The Home Page and Contact Page will function in a similar way across devices, whilst the Gallery images will be one column instead of four on mobile devices in order to ensure the user can see the images/paintings clearly.
 [Wireframes](docs/readmewireframes)
 
 ## Features
@@ -134,13 +134,32 @@ As so much of Kevin Pearse's artwork featuring nature and, more specifically, th
 
 ## Testing
 
-Kevin Pearse Art has been  tested  across all  pages manually on desktop, tablet, and mobile phone. In order to gauge a more reliable judgement of responsiveness, I have continuously used Chrome’s [Dev Tools](https://developer.chrome.com/docs/devtools/) feature. Features that have been tested through Dev Tools and manually:
+Kevin Pearse Art has been  tested  across all pages manually on desktop, tablet, and mobile phone. In order to gauge a more reliable judgement of responsiveness, I have continuously used Chrome’s [Dev Tools](https://developer.chrome.com/docs/devtools/) feature. Features that have been tested through Dev Tools and manually:
 
 - The Navigation Menu: The navigation menu is clearly labelled making it easy for the external user to navigate the website. The hamburger menu on smaller screens allows responsiveness and ensures the focus is on the images and content of the website. These features meet the needs of the users to “navigate the website in a clear way” and the artist’s goals to “showcase and publicise his artwork in a clear way”.
+Here is the Navigation Menu on desktop screens: ![Desktop Nav](docs/readmeimages/navdesktop.png)
+Tablet screens: ![Tablet Nav](docs/readmeimages/navdesktop.png)
+Mobile screen: ![Mobile Nav](docs/readmeimages/mobilenav.png)
+
+- The Hero Image: The Hero Image remains at the top of the Home Page, beneath the Navigation Menu. I did, however, come across an issue when testing the Home Page on mobile screens. The image would leave a slight gap on the right of the screen, despite its width being set to 100%. This was resolved by creating a html tag within the css of overflow:none. The Hero Image is now responsive on all screens and immediately fulfills the external user and the artist's goals of "To see the artwork" and "To showcase and publicise his artwork" respectively. It immediately allows the user to see the artist's work before stepping into any other aspect of the website. There is also a zoom effect on the image itself, causing the user to take a moment to really look at the image.
+![Hero Image](docs/readmeimages/heroimagetesting.png)
+
 - The Footer: across all pages and screens, the footer sits at the bottom of the website, allowing users to always have access to the artist’s social media should they wish to extend their support. This meets the needs of both external user and artist, whose goals are to “access to the artist’s relevant social media” and “For any social media to be easily accessible, to further promote his work”.
+![Footer](docs/readmeimages/footertest.png)
+
 - The About Section and Upooming Events: The About Section was responsive across all different screen sizes. Despite creating a media query fro smaller screens for the Upooming Events section, some tablets presented the maps overlapping. This was fixed through further media queries. Both About and Upcoming Events meet the needs of the user by including a "section for the artist to say a little about himself" and "informing the external user of any upcoming events featuring the artist’s work". It also meets the goals of the artist whose goal was to "introduce himself to existing and future potential customers/supporters" and "To publicise and inform of any future exhibitions".
+![About Section](docs/readmeimages/aboutme.png)
+Desktop version of Upcoming Events includes the maps side by side: ![Desktop Events](docs/readmeimages/mapsdesktop.png)
+Tablet and mobile version includes one map below the other to ensure user is able to navigate the website with ease: ![Tablet Events](docs/readmeimages/mapstablet.png) ![Mobile Events](docs/readmeimages/mobilemaps.png)
+
 - The Gallery: In order to prioritise resposivity and showcasing the art, the desktop version of the Gallery includes four columns, the tablet screen has two columns, and the mobile/smaller screen only shows one column. While testing this both manually on different devices, and through Dev Tools, this was the most efficient and accessible way of viewing the images clearly as a user. This meets the goals of both user and artist of "To see the artwork" and "To showcase and publicise his artwork" respectively.
+Desktop Gallery with four columns: ![Desktop Gallery](docs/readmeimages/gallerydesktop.png)
+Tablet Gallery with two columns: ![Tablet Gallery](docs/readmeimages/gallerytablet.png)
+Mobile Gallery with one colummn: ![Mobile Gallery](docs/readmeimages/gallerymobile.png)
+
 - The Contact and Thank You page: Across devices, the Contact Page and the Thank You Page is easy to navigate and meets the user and artist's goals of "To have the ability to easily contact the artist" and "To be able to receive messages from potential customers/supporters" repsectively. The Thank You page allows a further touch of personalisation for site, ensuring the site is centered around the artist.
+The Contact Page: ![Contact Page](docs/readmeimages/contacttesting.png)
+Thank You Page: ![Thank You Page](docs/readmeimages/thankyou.webp)
 
 I used [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to test the performance of the site:
 
@@ -159,17 +178,17 @@ Initially, nine errors were found across the four pages - including thankyou.htm
 - "Warning: Section lacks heading". This has been resolved by changing the section to a div, as no heading is necessary.
 - "Error: Unclosed element a". This error caused multiple other errors and was resolved by closing the a tag.
 - The final error present was to include a lang within the head.
-Once these errors were resolved, no errors were returned on any page of the site when using the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html)
-![HTML](docs/readmeimages/HTML.png)
+Once these errors were resolved, no errors were returned on any page of the site when using the official both through url and inputting text [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html)
+![HTML](docs/readmeimages/html.png)
 
 ### CSS
 
-No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-![CSS](docs/readmeimages/CSS.png)
+No errors were found when passing through the official both through url and inputting text [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+![css](docs/readmeimages/CSS.png)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+While creating this project I ran into an issue with Code Anywhere in which it was no longer allowing me to push, after suddenly going offline when commiting my work. There was an issue with the branches. Following this, the browser displayed the footer and images as though they had not been styled. When I checked the css and html, everything was normal, but the footer and images remained unstyled. I contacted Tutor Assistance in regards to this issue who suggested creating a new repository and oo put my code into there. There have been no known unsolved issues within this workspace.
 
 ## Deployment
 
@@ -192,6 +211,8 @@ The live link can be found here - <https://mipear.github.io/KPArt/index.html>
 ### Content
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- I used [Google Maps](https://www.google.com/maps) to create the maps in the Upcoming Events section.
+- To compress the images, I used [tinypng.com](https://tinypng.com/)
 - In order to create a palette of colours, I used [Coolors.co](https://coolors.co/image-picker) and created my palette via the artist's hero image painting.
 - I used [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) for the Contact Form, Navigation menu, and Upcoming Events.
 - To write my code, I used [Code Anywhere](https://app.codeanywhere.com/)

@@ -23,7 +23,7 @@ External user goals are:
 ### Kevin Pearse Art seeks to meet these needs by:
 
 1. Ensuring the site is easy and clear to navigate, prioritising visualising the art as showcasing the art is the ultimate purpose of the site.
-2. Having a section for the artist to say a little about himself (in his own words) and include an image of the artist alongside this. By including this section on the Home page, the user will gain context about the artist and his art before seeing the extent of the art on the subsequent Gallery page.
+2. Having a section for the artist to say a little about himself in his own words and include an image of the artist alongside this. By including this section on the Home page, the user will gain context about the artist and his art before seeing the extent of the art on the subsequent Gallery page.
 3. Including a Contact page wherein the external user is able to easily send a message to the artist. After filling in their name and email, the user will be able to send a message and be taken to a Thank You page to ensure they know the artist has received said message.
 4. Informing the external user of any upcoming events featuring the artist’s work. This will include titles of said events and their locations.
 5. Implementing social media links within the Footer of the site, represented by their relevant icons. When clicked, the links will open into a separate tab, to ensure a good user experience. This will allow the user to access the artist’s social media efficiently without having to leave the page and without the page appearing to be cluttered.
@@ -124,7 +124,7 @@ Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wire
 
 ## Colours
 
-Due to the purpose of Kevin Pearse Art being to showcase and promote the artist's work, colour has been particularly paid attention to. It was important to the artist that the presentation of colours was simplistic in order to emphasise the artwork itself. At the same time, it was significant for the colours to feel cohesive to the artist's work. To meet these needs, the website has used a palette of colours only from the hero image of the page. This was done using the website [Coolors.co]'s (https://coolors.co/image-picker) feature as seen below:
+Due to the purpose of Kevin Pearse Art being to showcase and promote the artist's work, colour has been particularly paid attention to. It was important to the artist that the presentation of colours was simplistic in order to emphasise the artwork itself. At the same time, it was significant for the colours to feel cohesive to the artist's work. To meet these needs, the website has used a palette of colours only from the hero image of the page. This was done using the website [Coolors.co's](https://coolors.co/image-picker) feature as seen below:
 ![Hero Image Colour Palette](docs/readmeimages/colours.png)
 As so much of Kevin Pearse's artwork featuring nature and, more specifically, the sea, two shades of blue has primarily been used within text. This use of colour encourages the user's association between the website and nature, nature and art, and is representative of the artist who says in the About Me that he paints plein air. 
 
@@ -175,32 +175,36 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - From the Code and automation dropdown menu, select Pages
+  - Ensure the Source within Build and deployment says to Deploy from a branch
+  - Change the Branch to main and save
+  - Your site should now be live and the link should appear at the top of the page
+  - If you wish, you can create a custom domain for your link using the Custom Domain section below Build and deployment. Simply write in your domain and save
 
 The live link can be found here - <https://mipear.github.io/KPArt/index.html>
 
 ## Credits
 
 - Part of this project was done following along to the Code Institute tutorials, nameley, the Love Running Project and the Resume Mini Project.
+- This website was partly inspired by artists' websites the artist, Kevin Pearse, enjoyed such as [Lynne Cartlidge](https://www.lynnecartlidge.com/) and [Peter Brown](https://www.peterbrownneac.com/).
+- A huge thank you to Martina, my mentor, for her constant support, efficiency, and helpful suggestions.
 
 ### Content
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - In order to create a palette of colours, I used [Coolors.co](https://coolors.co/image-picker) and created my palette via the artist's hero image painting.
-- Bootstrap
-- Code Anywhere
-- GitHub
-- Google Lighthouse
-- Google  Fonts
-- Lynne
-- Pete
-- Love Running read me
-- Media Queries website
+- I used [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) for the Contact Form, Navigation menu, and Upcoming Events.
+- To write my code, I used [Code Anywhere](https://app.codeanywhere.com/)
+- I used [GitHub](https://github.com/) for version control and to deploy through [Github Pages](https://pages.github.com/)
+- For testing purposes, I used [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk), [Dev Tools](https://developer.chrome.com/docs/devtools/), and validators [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) and [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html).
+- To create the mockup and test the website's responsiveness, I used [Am I Responsive?](https://ui.dev/amiresponsive)
+- For the text, I used 'Merriweather Sans' from [Google  Fonts](https://fonts.google.com/)
+- The [Love Running README](https://github.com/lucyrush/readme-love-running) was useful in knowing how to create a READ ME
+- Alongside this, this [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) has been useful in understanding how to write in Markdown syntax.
+- This [Media Queries](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) article was incredibly useful in understanding breakpoints and responsiveness.
+- I used the following Social Media platforms for the footer - [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [Youtube](https://www.youtube.com/), and [Twitter](https://twitter.com/).
 
 ### Media
 
 - The images used across all pages of the website are owned by Kevin Pearse, the artist this website showcases.
 - The wireframes within the README.md were created using [Balsamiq] (<https://balsamiq.com/wireframes/desktop/#>)
-- Am I responsive
-

@@ -9,10 +9,13 @@ Kevin Pearse Art is a site that hopes to showcase artist Kevin Pearse's work to 
 ## UX
 
 ## Project Goals:
+
 The primary goal of Kevin Pearse Art is to promote and showcase the artwork of artist Kevin Pearse in a clear and aesthetically pleasing way. The website should include the artist’s work, information about the artist, a way for the user to contact the artist, and any future events the artist’s work is featured at. The target audience (and therefore the targeted external user) for this site will be people who like and engage with art and artists.
 
 ### External user goals:
+
 External user goals are:
+
 1. To see the artwork and be able to navigate the website in a clear way.
 2. To learn a little about the artist.
 3. To have the ability to easily contact the artist should they have any queries.
@@ -20,6 +23,7 @@ External user goals are:
 5. To have access to the artist’s relevant social media.
 
 ### Kevin Pearse Art seeks to meet these needs by:
+
 1. Ensuring the site is easy and clear to navigate, prioritising visualising the art as showcasing the art is the ultimate purpose of the site.
 2. Having a section for the artist to say a little about himself (in his own words) and include an image of the artist alongside this. By including this section on the Home page, the user will gain context about the artist and his art before seeing the extent of the art on the subsequent Gallery page.
 3. Including a Contact page wherein the external user is able to easily send a message to the artist. After filling in their name and email, the user will be able to send a message and be taken to a Thank You page to ensure they know the artist has received said message.
@@ -27,7 +31,9 @@ External user goals are:
 5. Implementing social media links within the Footer of the site, represented by their relevant icons. When clicked, the links will open into a separate tab, to ensure a good user experience. This will allow the user to access the artist’s social media efficiently without having to leave the page and without the page appearing to be cluttered.
 
 ### Site owner/Artist’s goals:
+
 The site owner is the artist, Kevin Pearse. His goals are:
+
 1. To showcase and publicise his artwork in a clear way.
 2. To introduce himself to existing and future potential customers/supporters.
 3. To further network within the artists’ community.
@@ -36,6 +42,7 @@ The site owner is the artist, Kevin Pearse. His goals are:
 6. For any social media to be easily accessible, to further promote his work.
 
 Kevin Pearse Art seeks to meet these needs by:
+
 1. Prioritising the images of the artwork above all else, including at least one image of the artwork on each page. The pages themselves will be easy to navigate and will be clear in design to ensure the focus is primarily on the paintings.
 2. Including a section where the artist is able to introduce himself (in his own words) alongside an image of himself. Kevin Pearse will be able to contextualise the artwork and ensure a more personal feel to the site through doing this.
 3. Presenting a body of work that reflects the style of the artist. This allows other artists to see and understand a little about the art and artist, and further establish Kevin Pearse within the art world.
@@ -44,6 +51,7 @@ Kevin Pearse Art seeks to meet these needs by:
 6. Including social media links within the Footer of the site, represented by their relevant icons. When clicked, the links will open into a separate tab, to ensure a good user experience. By including these links within the Footer, potential supporters/customers are able to access the artist’s social media on every page of the website, increasing the likelihood of engagement from the external user.
 
 ## Wireframes
+
 Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wireframes/desktop/#). Included in my wireframes are a desktop, tablet, and mobile version of each page. The Home Page and Contact Page will function in a similar way across devices, whilst the Gallery images will be one column instead of four in order to ensure the user can see the images/paintings clearly.
 [Wireframes](docs/readmewireframes)
 
@@ -57,7 +65,7 @@ Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wire
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - On smaller screens (e.g. mobile) the Navigation Menu will be replaced by a hamburger menu that includes the three main pages included in the menu. This deviation from my wireframe was implemented as on smaller screens, the navigation bar appeared too bulky, when the emphasis should be on the contents and images of the site.
 
-![Nav Bar](docs/readmeimages/Nav.png)
+![Nav Bar](docs/readmeimages/nav.png)
 
 - __The hero image__
 
@@ -110,26 +118,41 @@ Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wire
 
 ![Contact](docs/readmeimages/contact.png)
 
+- __The Thank You Page__
+
+- Once the user has inputted and submitted their information of The Contact Page, the user will be directed to another page within the website, The Thank You Page. This allows the user to know that they have sent their message to the artist while also allowing the artist to thank the user for their message.
+  
+![Thank You](docs/readmeimages/thankyou.webp)
+
 ## Colours
 
-Due to the purpose of Kevin Pearse Art being to showcase and promote the artist's work, colour has been particularly paid attention to. It was important to the artist that the presentation of colours was simplistic in order to emphasise the artwork itself. At the same time, it was significant for the colours to feel cohssive to the artist's work. To meed these needs, the website has used a palette of colours only from the hero image of the page. This was done using the website [Coolors.co]'s (https://coolors.co/image-picker) feature as seen below:
+Due to the purpose of Kevin Pearse Art being to showcase and promote the artist's work, colour has been particularly paid attention to. It was important to the artist that the presentation of colours was simplistic in order to emphasise the artwork itself. At the same time, it was significant for the colours to feel cohesive to the artist's work. To meet these needs, the website has used a palette of colours only from the hero image of the page. This was done using the website [Coolors.co]'s (https://coolors.co/image-picker) feature as seen below:
 ![Hero Image Colour Palette](docs/readmeimages/colours.png)
-As so much of Kevin Pearse's artwork featuring nature and, more spcifically, the sea, two shades of blue has primarily been used within text. This use of colour encourages the user's association between the website and nature, nature and art, and is representative of the artist who says in the About Me that he paints plein air. 
+As so much of Kevin Pearse's artwork featuring nature and, more specifically, the sea, two shades of blue has primarily been used within text. This use of colour encourages the user's association between the website and nature, nature and art, and is representative of the artist who says in the About Me that he paints plein air. 
 
-### Features Left to Implement
+## Features Left to Implement
 
 - A feature I would like to implement would be a shop page, represented by a trolley icon in the navigation menu, in order to purchase any paintings directly from the website itself rather than contacting the seller.
 
 ## Testing
 
-I have tested the site across different pages manually on desktop, tablet, and mobile phone. In order to gage a more reliable ___ of responsiveness, I have continuously used Dev Tools in Chrome to test responsiveness across a wider range of devices, including….
-GO THROUGH EACH BIT
-BUGS - e.g. the hero image not reaching the side
-I used [Google Lighthouse]() to test the performance of the site. Initially each page performed between 70% and 100%, other than the Gallery, which performed at only 20%. In order to resolve this, I compressed each image, ensured they are all webp, and reduced their file sizes as I knew the very good quality of the images were likely to blame for the long load time of the Gallery. Following this change, ...
+Kevin Pearse Art has been  tested  across all  pages manually on desktop, tablet, and mobile phone. In order to gauge a more reliable judgement of responsiveness, I have continuously used Chrome’s [Dev Tools](https://developer.chrome.com/docs/devtools/) feature. Features that have been tested through Dev Tools and manually:
+
+- The Navigation Menu: The navigation menu is clearly labelled making it easy for the external user to navigate the website. The hamburger menu on smaller screens allows responsiveness and ensures the focus is on the images and content of the website. These features meet the needs of the users to “navigate the website in a clear way” and the artist’s goals to “showcase and publicise his artwork in a clear way”.
+- The Footer: across all pages and screens, the footer sits at the bottom of the website, allowing users to always have access to the artist’s social media should they wish to extend their support. This meets the needs of both external user and artist, whose goals are to “access to the artist’s relevant social media” and “For any social media to be easily accessible, to further promote his work”.
+- The About Section and Upooming Events: The About Section was responsive across all different screen sizes. Despite creating a media query fro smaller screens for the Upooming Events section, some tablets presented the maps overlapping. This was fixed through further media queries. Both About and Upcoming Events meet the needs of the user by including a "section for the artist to say a little about himself" and "informing the external user of any upcoming events featuring the artist’s work". It also meets the goals of the artist whose goal was to "introduce himself to existing and future potential customers/supporters" and "To publicise and inform of any future exhibitions".
+- The Gallery: In order to prioritise resposivity and showcasing the art, the desktop version of the Gallery includes four columns, the tablet screen has two columns, and the mobile/smaller screen only shows one column. While testing this both manually on different devices, and through Dev Tools, this was the most efficient and accessible way of viewing the images clearly as a user. This meets the goals of both user and artist of "To see the artwork" and "To showcase and publicise his artwork" respectively.
+- The Contact and Thank You page: Across devices, the Contact Page and the Thank You Page is easy to navigate and meets the user and artist's goals of "To have the ability to easily contact the artist" and "To be able to receive messages from potential customers/supporters" repsectively. The Thank You page allows a further touch of personalisation for site, ensuring the site is centered around the artist.
+
+I used [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to test the performance of the site:
+
+- [Home Page]()
+- [Contact Page](docs/readmeimages/contactlighthouse.png)
+- [Gallery Page](docs/readmeimages/gallerylighthouse.png)
 
 ### Validator Testing
 
-# HTML
+### HTML
 
 Initially, nine errors were found across the four pages - including thankyou.html - which primarily were errors within the head and the footer. The errors found were as follows:
 
@@ -137,11 +160,13 @@ Initially, nine errors were found across the four pages - including thankyou.htm
 - "Warning: Section lacks heading". This has been resolved by changing the section to a div, as no heading is necessary.
 - "Error: Unclosed element a". This error caused multiple other errors and was resolved by closing the a tag.
 - The final error present was to include a lang within the head.
-Once these errors were resolved, no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.htm)
+Once these errors were resolved, no errors were returned on any page of the site when using the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html)
+[HTML](docs/readmeimages/HTML.png)
 
-# CSS
+### CSS
 
 No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+[]
 
 ### Unfixed Bugs
 

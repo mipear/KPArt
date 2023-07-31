@@ -2,11 +2,9 @@
 
 Kevin Pearse Art is a site that hopes to showcase artist Kevin Pearse's work to engage and maximise his audience and customers. This site will be targeted towards fans of art and therefore will prioritise images of the artist's work in a well presented manner. The purpose of the site will be to showcase the art, to give information about the artist and upcoming events, and to allow the user to contact the artist. Kevin Pearse Art will be useful to potential customers of Kevin Pearse as they will be able to contact the seller and know where to find his upcoming events. It will also be useful to the artist Kevin Pearse in order to showcase his work. Due to the site showcasing art, the colour palette is particularly important. For this reason, the colours used on the website have been taken from a painting by the artist himself that will be the hero image. This feature will be beneficial to the artist and the user as it creates a cohesive website, showcasing Kevin Pearse's work through and through.
 
+[Live link](https://mipear.github.io/KPArt/index.html)
+
 ![Responsive Mockup](docs/readmeimages/mockup.png)
-
-## User Stories
-
-## UX
 
 ## Project Goals:
 
@@ -146,9 +144,10 @@ Kevin Pearse Art has been  tested  across all  pages manually on desktop, tablet
 
 I used [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to test the performance of the site:
 
-- [Home Page]()
-- [Contact Page](docs/readmeimages/contactlighthouse.png)
-- [Gallery Page](docs/readmeimages/gallerylighthouse.png)
+- Home Page: ![Home Page](docs/readmeimages/homelighthouse.png)
+- Contact Page: ![Contact Page](docs/readmeimages/contactlighthouse.png)
+- Thank You Page: ![Thank You Page](docs/readmeimages/thankyoulighthouse.png)
+- Gallery Page: Initially, the Gallery Page showed a performance level of merely 20%. To resolve this issue, all images have been compressed, I've ensured all images are .webp files, and all images have been resized to ensure the files are smaller. ![Gallery Page](docs/readmeimages/gallerylighthouse.png)
 
 ### Validator Testing
 
@@ -161,12 +160,12 @@ Initially, nine errors were found across the four pages - including thankyou.htm
 - "Error: Unclosed element a". This error caused multiple other errors and was resolved by closing the a tag.
 - The final error present was to include a lang within the head.
 Once these errors were resolved, no errors were returned on any page of the site when using the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html)
-[HTML](docs/readmeimages/HTML.png)
+![HTML](docs/readmeimages/HTML.png)
 
 ### CSS
 
 No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-[]
+![CSS](docs/readmeimages/CSS.png)
 
 ### Unfixed Bugs
 
@@ -184,22 +183,24 @@ The live link can be found here - <https://mipear.github.io/KPArt/index.html>
 ## Credits
 
 - Part of this project was done following along to the Code Institute tutorials, nameley, the Love Running Project and the Resume Mini Project.
-- Bootstrap was incredibly useful in creating the Upcoming Events section in a responsive way.
-- In order to
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - In order to create a palette of colours, I used [Coolors.co](https://coolors.co/image-picker) and created my palette via the artist's hero image painting.
+- Bootstrap
+- Code Anywhere
+- GitHub
+- Google Lighthouse
+- Google  Fonts
+- Lynne
+- Pete
+- Love Running read me
+- Media Queries website
 
 ### Media
 
 - The images used across all pages of the website are owned by Kevin Pearse, the artist this website showcases.
 - The wireframes within the README.md were created using [Balsamiq] (<https://balsamiq.com/wireframes/desktop/#>)
+- Am I responsive
 

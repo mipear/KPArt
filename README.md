@@ -126,7 +126,7 @@ Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wire
 
 Due to the purpose of Kevin Pearse Art being to showcase and promote the artist's work, colour has been particularly paid attention to. It was important to the artist that the presentation of colours was simplistic in order to emphasise the artwork itself. At the same time, it was significant for the colours to feel cohesive to the artist's work. To meet these needs, the website has used a palette of colours only from the hero image of the page. This was done using the website [Coolors.co's](https://coolors.co/image-picker) feature as seen below:
 ![Hero Image Colour Palette](docs/readmeimages/colours.png)
-As so much of Kevin Pearse's artwork featuring nature and, more specifically, the sea, two shades of blue has primarily been used within text. This use of colour encourages the user's association between the website and nature, nature and art, and is representative of the artist who says in the About Me that he paints plein air. 
+As so much of Kevin Pearse's artwork featuring nature and, more specifically, the sea, two shades of blue - #0590AEff and #2A4D76ff - and one shade of grey - #6C8989ff - has been used within the text. This use of colour encourages the user's association between the website and nature, nature and art, and is representative of the artist who says in the About Me that he paints plein air. The off-white colour - #F8F6F0ff - is the lightest part of the hero image and is used as a background colour for the entire site. This simplicity was of importance to this site as the attention should remain on the art itself, without distractions. Overall, the palette emphasises the integrity of the website in promoting the artist and his art through creating a cohesive space that is easy to navigate and is representative of the artist.
 
 ## Features Left to Implement
 
@@ -134,39 +134,92 @@ As so much of Kevin Pearse's artwork featuring nature and, more specifically, th
 
 ## Testing
 
-Kevin Pearse Art has been  tested  across all pages manually on desktop, tablet, and mobile phone. In order to gauge a more reliable judgement of responsiveness, I have continuously used Chrome’s [Dev Tools](https://developer.chrome.com/docs/devtools/) feature. Features that have been tested through Dev Tools and manually:
+Kevin Pearse Art has been  tested  across all pages manually on desktop, tablet, and mobile phone. In order to gauge a more reliable judgement of responsiveness, I have continuously used Chrome’s [Dev Tools](https://developer.chrome.com/docs/devtools/) feature. All of the following features have been tested both manually and using Dev Tools.
 
-- The Navigation Menu: The navigation menu is clearly labelled making it easy for the external user to navigate the website. The hamburger menu on smaller screens allows responsiveness and ensures the focus is on the images and content of the website. These features meet the needs of the users to “navigate the website in a clear way” and the artist’s goals to “showcase and publicise his artwork in a clear way”.
-Here is the Navigation Menu on desktop screens: ![Desktop Nav](docs/readmeimages/navdesktop.png)
-Tablet screens: ![Tablet Nav](docs/readmeimages/navdesktop.png)
-Mobile screen: ![Mobile Nav](docs/readmeimages/mobilenav.png)
+**External user goal:** *1. To see the artwork and be able to navigate the website in a clear way.*
 
-- The Hero Image: The Hero Image remains at the top of the Home Page, beneath the Navigation Menu. I did, however, come across an issue when testing the Home Page on mobile screens. The image would leave a slight gap on the right of the screen, despite its width being set to 100%. This was resolved by creating a html tag within the css of overflow:none. The Hero Image is now responsive on all screens and immediately fulfills the external user and the artist's goals of "To see the artwork" and "To showcase and publicise his artwork" respectively. It immediately allows the user to see the artist's work before stepping into any other aspect of the website. There is also a zoom effect on the image itself, causing the user to take a moment to really look at the image.
+**Artist goal:** *1. To showcase and publicise his artwork in a clear way.*
+
+*- The Navigation Menu:* The navigation menu is clearly labelled making it easy for the external user to navigate the website. The hamburger menu on smaller screens allows responsiveness and ensures the focus is on the images and content of the website. These features meet the needs of the users to “navigate the website in a clear way” and the artist’s goals to “showcase and publicise his artwork in a clear way”.
+
+Here is the Navigation Menu on desktop screens:
+
+![Desktop Nav](docs/readmeimages/navdesktop.png)
+
+Tablet screens:
+
+![Tablet Nav](docs/readmeimages/navdesktop.png)
+
+Mobile screens:
+
+![Mobile Nav](docs/readmeimages/mobilenav.png)
+
+*- The Hero Image:* The Hero Image remains at the top of the Home Page, beneath the Navigation Menu. I did, however, come across an issue when testing the Home Page on mobile screens. The image would leave a slight gap on the right of the screen, despite its width being set to 100%. This was resolved by creating a html tag within the css of overflow:none. The Hero Image is now responsive on all screens and immediately fulfills the external user and the artist's goals of "To see the artwork" and "To showcase and publicise his artwork" respectively. It immediately allows the user to see the artist's work before stepping into any other aspect of the website. There is also a zoom effect on the image itself, causing the user to take a moment to really look at the image.
 ![Hero Image](docs/readmeimages/heroimagetesting.png)
 
-- The Footer: across all pages and screens, the footer sits at the bottom of the website, allowing users to always have access to the artist’s social media should they wish to extend their support. This meets the needs of both external user and artist, whose goals are to “access to the artist’s relevant social media” and “For any social media to be easily accessible, to further promote his work”.
-![Footer](docs/readmeimages/footertest.png)
+*- The Gallery:* In order to prioritise resposivity and showcasing the art, the desktop version of the Gallery includes four columns, the tablet screen has two columns, and the mobile/smaller screen only shows one column. While testing this both manually on different devices, and through Dev Tools, this was the most efficient and accessible way of viewing the images clearly as a user. This meets the goals of both user and artist of "To see the artwork" and "To showcase and publicise his artwork" respectively.
 
-- The About Section and Upooming Events: The About Section was responsive across all different screen sizes. Despite creating a media query fro smaller screens for the Upooming Events section, some tablets presented the maps overlapping. This was fixed through further media queries. Both About and Upcoming Events meet the needs of the user by including a "section for the artist to say a little about himself" and "informing the external user of any upcoming events featuring the artist’s work". It also meets the goals of the artist whose goal was to "introduce himself to existing and future potential customers/supporters" and "To publicise and inform of any future exhibitions".
+Desktop Gallery with four columns:
+![Desktop Gallery](docs/readmeimages/gallerydesktop.png)
+
+Tablet Gallery with two columns:
+![Tablet Gallery](docs/readmeimages/gallerytablet.png)
+
+Mobile Gallery with one column:
+![Mobile Gallery](docs/readmeimages/gallerymobile.png)
+
+__External user goal:__ *2. To learn a little about the artist.*
+__Artist goal:__ *2. To introduce himself to existing and future potential customers/supporters and 3. To further network within the artists’ community.*
+
+*- The About Section* is responsive across all different screen sizes. It not only fulfills the goals of the user of knowing a little about the artist but also allows the artist to introduce himself in his own words, allowing the website to feel personal and representative of the artist. The About Me section offers context to the rest of the website too, as it explains that the artist works plein-air. This further creates cohesion to the website, which has a real emphasis on nature due to this being the artist's focus. This section not only introduces Kevin Pearse to a wider audience of potential customers/supporters, but also to other artists. Immediately, artists and supporters alike as users are able to get to know the artist and see his artwork.
 ![About Section](docs/readmeimages/aboutme.png)
-Desktop version of Upcoming Events includes the maps side by side: ![Desktop Events](docs/readmeimages/mapsdesktop.png)
-Tablet and mobile version includes one map below the other to ensure user is able to navigate the website with ease: ![Tablet Events](docs/readmeimages/mapstablet.png) ![Mobile Events](docs/readmeimages/mobilemaps.png)
 
-- The Gallery: In order to prioritise resposivity and showcasing the art, the desktop version of the Gallery includes four columns, the tablet screen has two columns, and the mobile/smaller screen only shows one column. While testing this both manually on different devices, and through Dev Tools, this was the most efficient and accessible way of viewing the images clearly as a user. This meets the goals of both user and artist of "To see the artwork" and "To showcase and publicise his artwork" respectively.
-Desktop Gallery with four columns: ![Desktop Gallery](docs/readmeimages/gallerydesktop.png)
-Tablet Gallery with two columns: ![Tablet Gallery](docs/readmeimages/gallerytablet.png)
-Mobile Gallery with one colummn: ![Mobile Gallery](docs/readmeimages/gallerymobile.png)
+- The platform itself is a form of further networking within the artis' community as the artist is now able to share the site immediately at exhibitions or online, and users are then able to know more about, contact, and eventually support the artist through the site.
 
-- The Contact and Thank You page: Across devices, the Contact Page and the Thank You Page is easy to navigate and meets the user and artist's goals of "To have the ability to easily contact the artist" and "To be able to receive messages from potential customers/supporters" repsectively. The Thank You page allows a further touch of personalisation for site, ensuring the site is centered around the artist.
-The Contact Page: ![Contact Page](docs/readmeimages/contacttesting.png)
-Thank You Page: ![Thank You Page](docs/readmeimages/thankyou.webp)
+__External user goal:__ *3. To have the ability to easily contact the artist should they have any queries.*
+__Artist goal:__ *4. To be able to receive messages from potential customers/supporters.*
+
+*- The Contact and Thank You page:* Across devices, the Contact Page and the Thank You Page is easy to navigate and meets the user and artist's goals of "To have the ability to easily contact the artist" and "To be able to receive messages from potential customers/supporters" repsectively. Users are able to type in their name, email, and send a message to the artist. The Thank You page allows a further touch of personalisation for the site by allowing the artist to thank the user for the message, ensuring the site is centered around the artist and allowing the artist to create a relationship witht the users.
+The Contact Page: 
+![Contact Page](docs/readmeimages/contacttesting.png)
+Thank You Page: 
+![Thank You Page](docs/readmeimages/thankyou.webp)
+
+__External user goal:__ *4. To know about any upcoming events that features the artist’s work.*
+__Artist goal:__ *5. To publicise and inform of any future exhibitions.*
+
+*- Upooming Events:* Despite creating a media query for smaller screens for the Upooming Events section, some tablets presented the maps overlapping. This was fixed through further media queries. The Upcoming Events meet the needs of the user by informing the external user of "any upcoming events featuring the artist’s work". It also meets the goals of the artist whose goal was to "publicise and inform of any future exhibitions". The addresses and maps, which allows potential customers/supporters to visit ehe artist's exhibition, sits side by side on desktop screen but sit one below each other on tablet and mobile screens to ensure the user can see the locations clearly.
+
+Desktop version of Upcoming Events includes the maps side by side:
+
+![Desktop Events](docs/readmeimages/mapsdesktop.png)
+
+Tablet and mobile version includes one map below the other to ensure user is able to navigate the website with ease:
+
+![Tablet Events](docs/readmeimages/mapstablet.png)
+
+![Mobile Events](docs/readmeimages/mobilemaps.png)
+
+__External user goal:__ *5. To have access to the artist’s relevant social media.*
+__Artist goal:__ *6. For any social media to be easily accessible, to further promote his work.*
+
+*- The Footer:* Across all pages and screens, the footer sits at the bottom of the website, allowing users to always have access to the artist’s social media should they wish to extend their support. This meets the needs of both external user and artist, allowing social media to be easily accessible and, therefore, hopefully enticing the user to further their support through following.
+
+![Footer](docs/readmeimages/footertest.png)
 
 I used [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to test the performance of the site:
 
-- Home Page: ![Home Page](docs/readmeimages/homelighthouse.png)
-- Contact Page: ![Contact Page](docs/readmeimages/contactlighthouse.png)
-- Thank You Page: ![Thank You Page](docs/readmeimages/thankyoulighthouse.png)
-- Gallery Page: Initially, the Gallery Page showed a performance level of merely 20%. To resolve this issue, all images have been compressed, I've ensured all images are .webp files, and all images have been resized to ensure the files are smaller. ![Gallery Page](docs/readmeimages/gallerylighthouse.png)
+- Home Page: 
+![Home Page](docs/readmeimages/homelighthouse.png)
+
+- Contact Page: 
+![Contact Page](docs/readmeimages/contactlighthouse.png)
+
+- Thank You Page: 
+![Thank You Page](docs/readmeimages/thankyoulighthouse.png)
+
+- Gallery Page: Initially, the Gallery Page showed a performance level of merely 20%. To resolve this issue, all images have been compressed, I've ensured all images are .webp files, and all images have been resized to ensure the files are smaller. 
+![Gallery Page](docs/readmeimages/gallerylighthouse.png)
 
 ### Validator Testing
 
@@ -184,7 +237,7 @@ Once these errors were resolved, no errors were returned on any page of the site
 ### CSS
 
 No errors were found when passing through the official both through url and inputting text [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-![css](docs/readmeimages/CSS.png)
+![css](docs/readmeimages/css.png)
 
 ### Unfixed Bugs
 

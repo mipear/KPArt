@@ -51,7 +51,7 @@ The site owner is the artist, Kevin Pearse. His goals are:
 ## Wireframes
 
 Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wireframes/desktop/#). Included in my wireframes are a desktop, tablet, and mobile version of each page. The Home Page and Contact Page will function in a similar way across devices, whilst the Gallery images will be one column instead of four on mobile devices in order to ensure the user can see the images/paintings clearly.
-[Wireframes](docs/readmewireframes)
+Here are the [wireframes](docs/readmewireframes).
 
 ## Features
 
@@ -103,10 +103,10 @@ Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wire
 
 ![Gallery](docs/readmeimages/gallery.png)
 
- __The Contact Image__
+- __The Contact Image__
 
-- This section includes an image of a painting from the artist. Due to the website being to promote and showcase the artists' work, an image of the art is valuable on each page to entice the user to becoming buyers and/or supporters.
-- The image featuring lots of blue ties in with the colour palette used on the rest of the website.
+   - This section includes an image of a painting from the artist. Due to the website being to promote and showcase the artists' work, an image of the art is valuable on each page to entice the user to becoming buyers and/or supporters.
+   - The image featuring lots of blue ties in with the colour palette used on the rest of the website.
 
 ![Contact Image](docs/readmeimages/contactimg.png)
 
@@ -118,7 +118,7 @@ Please find wireframes below, created using [Balsamiq](https://balsamiq.com/wire
 
 - __The Thank You Page__
 
-- Once the user has inputted and submitted their information of The Contact Page, the user will be directed to another page within the website, The Thank You Page. This allows the user to know that they have sent their message to the artist while also allowing the artist to thank the user for their message.
+  - Once the user has inputted and submitted their information of The Contact Page, the user will be directed to another page within the website, The Thank You Page. This allows the user to know that they have sent their message to the artist while also allowing the artist to thank the user for their message.
   
 ![Thank You](docs/readmeimages/thankyou.webp)
 
@@ -136,9 +136,9 @@ As so much of Kevin Pearse's artwork featuring nature and, more specifically, th
 
 Kevin Pearse Art has been  tested  across all pages manually on desktop, tablet, and mobile phone. In order to gauge a more reliable judgement of responsiveness, I have continuously used Chrome’s [Dev Tools](https://developer.chrome.com/docs/devtools/) feature. All of the following features have been tested both manually and using Dev Tools.
 
-**External user goal:** *1. To see the artwork and be able to navigate the website in a clear way.*
+### External user goal: *1. To see the artwork and be able to navigate the website in a clear way.*
 
-**Artist goal:** *1. To showcase and publicise his artwork in a clear way.*
+### Artist goal: *1. To showcase and publicise his artwork in a clear way.*
 
 *- The Navigation Menu:* The navigation menu is clearly labelled making it easy for the external user to navigate the website. The hamburger menu on smaller screens allows responsiveness and ensures the focus is on the images and content of the website. These features meet the needs of the users to “navigate the website in a clear way” and the artist’s goals to “showcase and publicise his artwork in a clear way”.
 
@@ -160,15 +160,19 @@ Mobile screens:
 *- The Gallery:* In order to prioritise resposivity and showcasing the art, the desktop version of the Gallery includes four columns, the tablet screen has two columns, and the mobile/smaller screen only shows one column. While testing this both manually on different devices, and through Dev Tools, this was the most efficient and accessible way of viewing the images clearly as a user. This meets the goals of both user and artist of "To see the artwork" and "To showcase and publicise his artwork" respectively.
 
 Desktop Gallery with four columns:
+
 ![Desktop Gallery](docs/readmeimages/gallerydesktop.png)
 
 Tablet Gallery with two columns:
+
 ![Tablet Gallery](docs/readmeimages/gallerytablet.png)
 
 Mobile Gallery with one column:
+
 ![Mobile Gallery](docs/readmeimages/gallerymobile.png)
 
 __External user goal:__ *2. To learn a little about the artist.*
+
 __Artist goal:__ *2. To introduce himself to existing and future potential customers/supporters and 3. To further network within the artists’ community.*
 
 *- The About Section* is responsive across all different screen sizes. It not only fulfills the goals of the user of knowing a little about the artist but also allows the artist to introduce himself in his own words, allowing the website to feel personal and representative of the artist. The About Me section offers context to the rest of the website too, as it explains that the artist works plein-air. This further creates cohesion to the website, which has a real emphasis on nature due to this being the artist's focus. This section not only introduces Kevin Pearse to a wider audience of potential customers/supporters, but also to other artists. Immediately, artists and supporters alike as users are able to get to know the artist and see his artwork.
@@ -177,6 +181,7 @@ __Artist goal:__ *2. To introduce himself to existing and future potential custo
 - The platform itself is a form of further networking within the artis' community as the artist is now able to share the site immediately at exhibitions or online, and users are then able to know more about, contact, and eventually support the artist through the site.
 
 __External user goal:__ *3. To have the ability to easily contact the artist should they have any queries.*
+
 __Artist goal:__ *4. To be able to receive messages from potential customers/supporters.*
 
 *- The Contact and Thank You page:* Across devices, the Contact Page and the Thank You Page is easy to navigate and meets the user and artist's goals of "To have the ability to easily contact the artist" and "To be able to receive messages from potential customers/supporters" repsectively. Users are able to type in their name, email, and send a message to the artist. The Thank You page allows a further touch of personalisation for the site by allowing the artist to thank the user for the message, ensuring the site is centered around the artist and allowing the artist to create a relationship witht the users.
@@ -186,6 +191,7 @@ Thank You Page:
 ![Thank You Page](docs/readmeimages/thankyou.webp)
 
 __External user goal:__ *4. To know about any upcoming events that features the artist’s work.*
+
 __Artist goal:__ *5. To publicise and inform of any future exhibitions.*
 
 *- Upooming Events:* Despite creating a media query for smaller screens for the Upooming Events section, some tablets presented the maps overlapping. This was fixed through further media queries. The Upcoming Events meet the needs of the user by informing the external user of "any upcoming events featuring the artist’s work". It also meets the goals of the artist whose goal was to "publicise and inform of any future exhibitions". The addresses and maps, which allows potential customers/supporters to visit ehe artist's exhibition, sits side by side on desktop screen but sit one below each other on tablet and mobile screens to ensure the user can see the locations clearly.
@@ -201,6 +207,7 @@ Tablet and mobile version includes one map below the other to ensure user is abl
 ![Mobile Events](docs/readmeimages/mobilemaps.png)
 
 __External user goal:__ *5. To have access to the artist’s relevant social media.*
+
 __Artist goal:__ *6. For any social media to be easily accessible, to further promote his work.*
 
 *- The Footer:* Across all pages and screens, the footer sits at the bottom of the website, allowing users to always have access to the artist’s social media should they wish to extend their support. This meets the needs of both external user and artist, allowing social media to be easily accessible and, therefore, hopefully enticing the user to further their support through following.
@@ -227,21 +234,21 @@ I used [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/
 
 Initially, nine errors were found across the four pages - including thankyou.html - which primarily were errors within the head and the footer. The errors found were as follows:
 
-- "Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values". This was resolved by simply deleting a the unecessary trailing slash.
+- "Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values". This was resolved by simply deleting the unecessary trailing slash.
 - "Warning: Section lacks heading". This has been resolved by changing the section to a div, as no heading is necessary.
 - "Error: Unclosed element a". This error caused multiple other errors and was resolved by closing the a tag.
 - The final error present was to include a lang within the head.
-Once these errors were resolved, no errors were returned on any page of the site when using the official both through url and inputting text [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html)
+Once these errors were resolved, no errors were returned on any page of the site when using the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html) both through url and inputting text.
 ![HTML](docs/readmeimages/html.png)
 
 ### CSS
 
-No errors were found when passing through the official both through url and inputting text [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) both through url and inputting text.
 ![css](docs/readmeimages/css.png)
 
 ### Unfixed Bugs
 
-While creating this project I ran into an issue with Code Anywhere in which it was no longer allowing me to push, after suddenly going offline when commiting my work. There was an issue with the branches. Following this, the browser displayed the footer and images as though they had not been styled. When I checked the css and html, everything was normal, but the footer and images remained unstyled. I contacted Tutor Assistance in regards to this issue who suggested creating a new repository and oo put my code into there. There have been no known unsolved issues within this workspace.
+While creating this project I ran into an issue with Code Anywhere in which it was no longer allowing me to push, after suddenly going offline when commiting my work. There was an issue with the branches. Following this, the browser displayed the footer and images as though they had not been styled. When I checked the css and html, everything was normal, but the footer and images remained unstyled. I contacted Tutor Assistance in regards to this issue who suggested creating a new repository and to put my code into there. There have been no known unsolved issues within this workspace.
 
 ## Deployment
 

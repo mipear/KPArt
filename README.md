@@ -210,7 +210,7 @@ __External user goal:__ *5. To have access to the artist’s relevant social med
 
 __Artist goal:__ *6. For any social media to be easily accessible, to further promote his work.*
 
-*- The Footer:* Across all pages and screens, the footer sits at the bottom of the website, allowing users to always have access to the artist’s social media should they wish to extend their support. This meets the needs of both external user and artist, allowing social media to be easily accessible and, therefore, hopefully enticing the user to further their support through following.
+*- The Footer:* Across all pages and screens, the footer sits at the bottom of the website, allowing users to always have access to the artist’s social media should they wish to extend their support. Currently, the only social media the artist has is Instagram, and therefore, the Instagram link is the only one that takes the user to his specific page, rather than the general website, but the artist has stated that he will create profiles for other social media and so this will be updated once he has done so. When clicked, the icon of the social media platform takes the user to said platform in a new tab to ensure a good user experience. This meets the needs of both external user and artist, allowing social media to be easily accessible on every page and, therefore, hopefully enticing the user to further their support through following.
 
 ![Footer](docs/readmeimages/footertest.png)
 

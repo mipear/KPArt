@@ -4,7 +4,7 @@ html {
     overflow: auto;
 }
 
-/* Header */
+/* Header including navigation menu and logo */
 
 header {
     margin: 0px;
@@ -62,7 +62,7 @@ body {
 }
 
 /* Home Page section */
-
+/* Hero Image */
 #hero-image {
     height: 600px;
     width: 100%;
@@ -92,12 +92,7 @@ body {
     }
 }
 
-#cover-text,
-cover-text h2 {
-    color: #F8F6F0ff;
-}
-
-
+/* About Me section */
 .artist-img {
     width: 150px;
     height: 150px;
@@ -116,6 +111,7 @@ cover-text h2 {
     width: 66%;
 }
 
+/* Upcoming events */
 .row-table {
     display: table;
     text-align: center;

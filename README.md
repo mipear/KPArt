@@ -288,4 +288,4 @@ The live link can be found here - <https://mipear.github.io/KPArt/index.html>
 ### Media
 
 - The images used across all pages of the website are owned by Kevin Pearse, the artist this website showcases.
-- The wireframes within the README.md were created using [Balsamiq] (<https://balsamiq.com/wireframes/desktop/#>)
+- The wireframes within the README.md were created using [Balsamiq](https://balsamiq.com/wireframes/desktop/#)

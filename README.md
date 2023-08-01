@@ -2,7 +2,7 @@
 
 Kevin Pearse Art is a site that hopes to showcase artist Kevin Pearse's work to engage and maximise his audience and customers. This site will be targeted towards fans of art and therefore will prioritise images of the artist's work in a well presented manner. The purpose of the site will be to showcase the art, to give information about the artist and upcoming events, and to allow the user to contact the artist. Kevin Pearse Art will be useful to potential customers of Kevin Pearse as they will be able to contact the seller and know where to find his upcoming events. It will also be useful to the artist Kevin Pearse in order to showcase his work. Due to the site showcasing art, the colour palette is particularly important. For this reason, the colours used on the website have been taken from a painting by the artist himself that will be the hero image. This feature will be beneficial to the artist and the user as it creates a cohesive website, showcasing Kevin Pearse's work through and through.
 
-[Live link](https://mipear.github.io/KPArt/index.html)
+[Here is the live link](https://mipear.github.io/KPArt/index.html)
 
 ![Responsive Mockup](docs/readmeimages/mockup.png)
 
@@ -65,7 +65,7 @@ Here are the [wireframes](docs/readmewireframes).
 
 ![Nav Bar](docs/readmeimages/nav.png)
 
-- __The hero image__
+- __The Hero Image__
 
   - The hero image includes a photograph of a painting by artist Kevin Pearse. It does not include text overlay as the artist felt this would take the user away from admiring the artist's work, which is the goal of the image. The painting itself has the place name "Aberaeron" visible on a boat, giving context to the user of the places and scenes the artist features in his work.
   - The colour palette for the website has been used using this hero image, creating a cohesive experience for the user.
@@ -99,7 +99,7 @@ Here are the [wireframes](docs/readmewireframes).
   - The gallery will provide the user with images of the artists' paintings to showcase the artists' work and gain support.
   - This section is valuable to the user as they will be able to browse the paintings clearly before potentially visiting and event of the artist or contacting the artist via the Contact page. This section is highly valuable to the artist as this showcases his work to potential customers and supporters.
   - On mobile screens, the gallery changes from being four columns to one column in order to ensure that the user can inspect and enjoy the images with ease. The purpose of the website is to showcase the artist's paintings, and therefore, it is of the upmost importance that the images are easy to see.
-  - Should and image not load, alternative text is included with each image to ensure the user knows the kind of paintings the artist creates.
+  - Should and image not load, alternative text is included with each image to ensure the user knows the kind of paintings the artist creates, ensuring accessibility.
 
 ![Gallery](docs/readmeimages/gallery.png)
 
@@ -157,7 +157,7 @@ Mobile screens:
 *- The Hero Image:* The Hero Image remains at the top of the Home Page, beneath the Navigation Menu. I did, however, come across an issue when testing the Home Page on mobile screens. The image would leave a slight gap on the right of the screen, despite its width being set to 100%. This was resolved by creating a html tag within the css of overflow:none. The Hero Image is now responsive on all screens and immediately fulfills the external user and the artist's goals of "To see the artwork" and "To showcase and publicise his artwork" respectively. It immediately allows the user to see the artist's work before stepping into any other aspect of the website. There is also a zoom effect on the image itself, causing the user to take a moment to really look at the image.
 ![Hero Image](docs/readmeimages/heroimagetesting.png)
 
-*- The Gallery:* In order to prioritise resposivity and showcasing the art, the desktop version of the Gallery includes four columns, the tablet screen has two columns, and the mobile/smaller screen only shows one column. While testing this both manually on different devices, and through Dev Tools, this was the most efficient and accessible way of viewing the images clearly as a user. This meets the goals of both user and artist of "To see the artwork" and "To showcase and publicise his artwork" respectively.
+*- The Gallery:* In order to prioritise resposivity and showcasing the art, the desktop version of the Gallery includes four columns, the tablet screen has two columns, and the mobile/smaller screen only shows one column. While testing this both manually on different devices, and through Dev Tools, this was the most efficient and accessible way of viewing the images clearly as a user. This meets the goals of both user and artist of "To see the artwork" and "To showcase and publicise his artwork" respectively. All images include alternative text equivalents to ensure accessibility.
 
 Desktop Gallery with four columns:
 
@@ -274,7 +274,7 @@ The live link can be found here - <https://mipear.github.io/KPArt/index.html>
 - I used [Google Maps](https://www.google.com/maps) to create the maps in the Upcoming Events section.
 - To compress the images, I used [tinypng.com](https://tinypng.com/)
 - In order to create a palette of colours, I used [Coolors.co](https://coolors.co/image-picker) and created my palette via the artist's hero image painting.
-- I used [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) for the Contact Form, Navigation menu, and Upcoming Events.
+- I used [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) 5.3.1 and 4.3.1 for the Contact Form, Toggler Menu, and Upcoming Events.
 - To write my code, I used [Code Anywhere](https://app.codeanywhere.com/)
 - I used [GitHub](https://github.com/) for version control and to deploy through [Github Pages](https://pages.github.com/)
 - For testing purposes, I used [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk), [Dev Tools](https://developer.chrome.com/docs/devtools/), and validators [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) and [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmipear.github.io%2FKPArt%2Findex.html).
